@@ -1,241 +1,319 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LandingPage</title>
-    <!-- LinksBS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <nav
-        class="navbar navbar-expand-lg bg-dark fixed-top"
-        data-bs-theme="dark"
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LandingPage</title>
+  <!-- LinksBS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Alcimério</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Politica de privacidade</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Sobre mim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Transparencia</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="home">
+      <div class="containerleft">
+        <div class="infoleft">
+          <h1>
+            Seja um projeto ou um sonho, eu te ajudo a realizar... <br />
+            Conte comigo!
+          </h1>
+          <label>
+            Negócios imobiliários / Marketing Comercial / Marketing Político /
+            Consultoria para ONGs / Produção de áudio / Locução Profissional /
+            Rádio Web com App / Loja Virtual / Telemedicina 24hs /
+            Crowdfunding / Dev. App / CNH Popular / Clube de Apoio / EJA /
+            Curso Superior Sequencial em 04 meses / Cursos Profissionalizantes /
+            Banking Digital (Asaas) (personalizável)
+          </label>
+          <input type="button" value="Eu quero realizar" id="btn-home" />
+        </div>
+      </div>
+    </section>
+    <section class="faixa">
+      <label
+        >ORÇAMENTO SEM COMPROMISSO * PAGUE PARCELADO NO CARTÃO * 10 % DESCONTO
+        A VISTA * CONSULTE CONDIÇÕES</label
       >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Alcimério</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#"
-                  >Politica de privacidade</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Sobre mim</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#"
-                  >Transparencia</a
-                >
-              </li>
-            </ul>
+    </section>
+    <section class="infos">
+      <div class="title-infos">
+        <h2>Realize seu projeto com quem tem experiência</h2>
+      </div>
+      <div class="cards-info">
+        <div class="card bg-dark" style="width: 18rem" data-bs-theme="dark">
+          <div class="card-body">
+            <h5 class="card-title">Passe sua demanda</h5>
+            <p class="card-text">
+              Entre em contato pelo Whatsapp ou pelo e-mail e nos conte com
+              detalhes sobre seu projeto, que nós vamos trabalhar juntos no
+              desenvolvimento e na realização para que você se realize.
+            </p>
           </div>
         </div>
-      </nav>
-    </header>
-    <main>
-      <section class="home">
-        <div class="containerleft">
-          <div class="infoleft">
-            <h1>
-              Seja um projeto ou um sonho, eu te ajudo a realizar... <br />
-              Conte comigo!
-            </h1>
-            <label>
-              Negócios imobiliários / Marketing Comercial / Marketing Político /
-              Consultoria para ONGs / Produção de áudio / Locução Profissional /
-              Rádio Web com App / Loja Virtual / Telemedicina 24hs /
-              Crowdfunding / Dev. App / CNH Popular / Clube de Apoio / EJA /
-              Curso Superior Sequencial em 04 meses / Cursos Profissionalizantes
-              / Banking Digital (Asaas) (personalizável)
-            </label>
-            <input type="button" value="Eu quero realizar" id="btn-home" />
+        <div class="card bg-dark" style="width: 18rem" data-bs-theme="dark">
+          <div class="card-body">
+            <h5 class="card-title">Compromisso</h5>
+            <p class="card-text">
+              O trabalho é realizado com compromisso e responsabilidade, o que
+              faz com que o seu projeto fique muito mais do seu jeito.
+            </p>
           </div>
         </div>
-      </section>
-      <section class="faixa">
-        <label
-          >ORÇAMENTO SEM COMPROMISSO * PAGUE PARCELADO NO CARTÃO * 10 % DESCONTO
-          A VISTA * CONSULTE CONDIÇÕES</label
+        <div class="card bg-dark" style="width: 18rem" data-bs-theme="dark">
+          <div class="card-body">
+            <h5 class="card-title">Facilidade no pagamento</h5>
+            <p class="card-text">
+              Para sua comodidade, temos condições facilitadas para pagamentos
+              parcelado no cartão, para parcelamentos no boleto e super
+              descontos para pagamentos via pix.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="points">
+      <div class="title-points">
+        <h2>O que vamos fazer hoje?</h2>
+      </div>
+      <div class="points">
+        <div class="container1">
+          <div class="text">
+            <div class="content">
+              <h2>Realize hoje</h2>
+              <label>
+                Entre em contato e nos conte como podemos colaborar para a
+                realização do seu projeto.
+              </label>
+            </div>
+          </div>
+          <div class="image">
+            <img src="assets/contractimage.png" alt="imagem contrato" />
+          </div>
+        </div>
+        <div class="container2">
+          <div class="image">
+            <img src="assets/comprimage.png" alt="imagem compromisso" />
+          </div>
+          <div class="text">
+            <div class="content">
+              <h2>Compromisso e Dedicação</h2>
+              <label>
+                Nossa equipe é comprometida com os projetos de nossos
+                clientes, oferecendo sempre a melhor solução para que tudo
+                seja de acordo com o proposto, garantindo a sua satisfação.
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="container3">
+          <div class="text">
+            <div class="content">
+              <h2>Atendimento Humanizado</h2>
+              <label>
+                Buscamos sempre entender a demanda de nossos clientes de forma
+                personalizada, por isso nos dedicamos no tratamento de cada
+                projeto de forma humanizada.
+              </label>
+            </div>
+          </div>
+          <div class="image">
+            <img src="assets/contactimage.png" alt="imagem atendimento" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sucess">
+      <div class="title-sucess">
+        <h2>Casos de sucesso</h2>
+      </div>
+      <div
+        id="carouselExample"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="2000"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/site1.png"
+              class="d-block w-100"
+              alt="exemplo de site"
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/site2.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/site3.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/site4.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/site5.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/site6.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/site7.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/site8.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
         >
-      </section>
-      <section class="infos">
-        <div class="title-infos">
-          <h2>Realize seu projeto com quem tem experiência</h2>
-        </div>
-        <div class="cards-info">
-          <div class="card bg-dark" style="width: 18rem" data-bs-theme="dark">
-            <div class="card-body">
-              <h5 class="card-title">Passe sua demanda</h5>
-              <p class="card-text">
-                Entre em contato pelo Whatsapp ou pelo e-mail e nos conte com
-                detalhes sobre seu projeto, que nós vamos trabalhar juntos no
-                desenvolvimento e na realização para que você se realize.
-              </p>
-            </div>
-          </div>
-          <div class="card bg-dark" style="width: 18rem" data-bs-theme="dark">
-            <div class="card-body">
-              <h5 class="card-title">Compromisso</h5>
-              <p class="card-text">
-                O trabalho é realizado com compromisso e responsabilidade, o que
-                faz com que o seu projeto fique muito mais do seu jeito.
-              </p>
-            </div>
-          </div>
-          <div class="card bg-dark" style="width: 18rem" data-bs-theme="dark">
-            <div class="card-body">
-              <h5 class="card-title">Facilidade no pagamento</h5>
-              <p class="card-text">
-                Para sua comodidade, temos condições facilitadas para pagamentos
-                parcelado no cartão, para parcelamentos no boleto e super
-                descontos para pagamentos via pix.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="points">
-        <div class="title-points">
-          <h2>O que vamos fazer hoje?</h2>
-        </div>
-        <div class="points">
-          <div class="container1">
-            <div class="text">
-              <div class="content">
-                <h2>Realize hoje</h2>
-                <label>
-                  Entre em contato e nos conte como podemos colaborar para a
-                  realização do seu projeto.
-                </label>
-              </div>
-            </div>
-            <div class="image">
-              <img src="assets/contractimage.png" alt="imagem contrato" />
-            </div>
-          </div>
-          <div class="container2">
-            <div class="image">
-              <img src="assets/comprimage.png" alt="imagem compromisso" />
-            </div>
-            <div class="text">
-              <div class="content">
-                <h2>Compromisso e Dedicação</h2>
-                <label>
-                  Nossa equipe é comprometida com os projetos de nossos
-                  clientes, oferecendo sempre a melhor solução para que tudo
-                  seja de acordo com o proposto, garantindo a sua satisfação.
-                </label>
-              </div>
-            </div>
-          </div>
-          <div class="container3">
-            <div class="text">
-              <div class="content">
-                <h2>Atendimento Humanizado</h2>
-                <label>
-                  Buscamos sempre entender a demanda de nossos clientes de forma
-                  personalizada, por isso nos dedicamos no tratamento de cada
-                  projeto de forma humanizada.
-                </label>
-              </div>
-            </div>
-            <div class="image">
-              <img src="assets/contactimage.png" alt="imagem atendimento" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="sucess">
-        <div class="title-sucess">
-          <h2>Casos de sucesso</h2>
-        </div>
-        <div
-          id="carouselExample"
-          class="carousel slide"
-          data-bs-ride="carousel"
-          data-bs-interval="2000"
+          <span class="
+          carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Continue</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
         >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="assets/site1.png"
-                class="d-block w-100"
-                alt="exemplo de site"
-              />
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Voltar</span>
+        </button>
+      </div>
+    </section>
+    <section class="today">
+      <div class="container-today">
+        <div class="title-today">
+          <h2>Qual seu projeto para hoje?</h2>
+        </div>
+        <div class="cards-today">
+          <div class="card bg-dark" data-bs-theme="dark" style="max-width: 40%;">
+            <div class="card-header">
+              Personalizado
             </div>
-            <div class="carousel-item">
-              <img src="assets/site2.png" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="assets/site3.png" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="assets/site4.png" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="assets/site5.png" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="assets/site6.png" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="assets/site7.png" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="assets/site8.png" class="d-block w-100" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Se prefirir, oferecemos um serviço aspirações. Tranforme suas ideias em realidade conosco e garanta
+                  uma presença online que reflita verdadeiramente a essência do seu negócio.
+              </p>
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Continue</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Voltar</span>
-          </button>
+          <div class="cards">
+            <div class="card bg-dark" data-bs-theme="dark">
+              <div class="card-header">
+                Página de vendas
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  <ul class="list-card">
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i> Apresentação visual atraente para prender a atenção do cliente.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i> Conteúdo persoativo e relevante destacando os benefícios do produto.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i> Facilidade de navegação e conversão para uma experiência de compra sem complicações.
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+            <div class="card bg-dark" data-bs-theme="dark">
+              <div class="card-header">
+                Site Institucional
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  <ul class="list-card">
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i> Apresentação profissional e informativa sobre a empresa.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i> Transparência na comunicação da missão, visão e valores.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i> Facilidade de navegação para os visitantes encontrarem informações relevantes sobre a organização.
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+            <div class="card bg-dark" data-bs-theme="dark">
+              <div class="card-header">
+                Web Rádio Administrável
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  <ul class="list-card">
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i> Site 100% gerenciável pelo cliente
+                      (como logo, textos, fotos, videos, cores etc..)
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i> 2GB Espaço em Disco + 3 Caixa de E-mail 
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i> Personalizados com seu domínio
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
+    <span></span>
+  </main>
 
-    <script src="script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
